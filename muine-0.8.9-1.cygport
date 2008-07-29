@@ -1,0 +1,7 @@
+inherit mono gnome2
+
+DESCRIPTION="GNOME music player"
+HOMEPAGE="http://www.muine-player.org/"
+
+ACLOCAL_FLAGS="-I m4"
+#CYGCONF_ARGS="--enable-xine --disable-compile-warnings"
