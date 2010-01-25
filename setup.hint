@@ -1,0 +1,7 @@
+category: Audio Gnome
+requires: gstreamer0.10-plugins-base gstreamer0.10-plugins-gconf gstreamer0.10-plugins-good gstreamer0.10-plugins-oss libgcc1 libgdbm4 libgdk_pixbuf2.0_0 libglib2.0_0 libgnomevfs2_0 libgstreamer0.10_0 libgtk2.0_0 libintl8 libmusicbrainz4 libnotify1 libX11_6 mono mono-gconf-sharp2.0 mono-glade-sharp2.0 mono-glib-sharp2.0 mono-gnome-sharp2.24 mono-gnome-vfs-sharp2.0 mono-gtk-sharp2.0 mono-NDesk-DBus-GLib1.0 mono-NDesk-DBus1.0 mono-pango-sharp2.0 mono-taglib-sharp2.0
+sdesc: "GNOME/GStreamer music player"
+ldesc: "Muine is an innovative music player, featuring a simple, 
+intuitive interface. It is designed to allow users to easily construct a 
+playlist from albums and/or single songs. Its goal is to be simply a 
+music player, not to become a robust music management application."

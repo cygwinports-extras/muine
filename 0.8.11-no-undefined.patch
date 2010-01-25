@@ -1,0 +1,7 @@
+--- origsrc/muine-0.8.11/libmuine/Makefile.am	2009-09-13 09:53:58.000000000 -0500
++++ src/muine-0.8.11/libmuine/Makefile.am	2009-12-04 11:55:25.321723000 -0600
+@@ -27,3 +27,4 @@ libmuine_la_SOURCES =			\
+ 	mm-keys.h
+ 
+ libmuine_la_LIBADD = $(MUINE_LIBS) $(GDBM_LIBS)
++libmuine_la_LDFLAGS = -module -avoid-version -no-undefined

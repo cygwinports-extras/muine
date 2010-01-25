@@ -1,0 +1,30 @@
+--- origsrc/muine-0.8.11/plugins/TrayIcon.dll.config	2009-09-13 09:53:58.000000000 -0500
++++ src/muine-0.8.11/plugins/TrayIcon.dll.config	2009-12-07 02:45:42.413063400 -0600
+@@ -1,6 +1,6 @@
+ <configuration>
+-  <dllmap dll="gdk-x11-2.0" target="libgdk-x11-2.0.so.0"/>
+-  <dllmap dll="libX11" target="libX11.so.6"/>
+-  <dllmap dll="notify" target="libnotify.so.1"/>
+-  <dllmap dll="gobject-2.0" target="libgobject-2.0.so.0"/>
++  <dllmap dll="gdk-x11-2.0" target="cyggdk-x11-2.0-0.dll"/>
++  <dllmap dll="libX11" target="cygX11-6.dll"/>
++  <dllmap dll="notify" target="cygnotify-1.dll"/>
++  <dllmap dll="gobject-2.0" target="cyggobject-2.0-0.dll"/>
+ </configuration>
+--- origsrc/muine-0.8.11/src/muine.exe.config.in	2009-09-13 09:53:58.000000000 -0500
++++ src/muine-0.8.11/src/muine.exe.config.in	2009-12-04 11:56:36.691847400 -0600
+@@ -1,8 +1,8 @@
+ <configuration>
+-  <dllmap dll="libglib-2.0-0.dll" target="libglib-2.0.so.0"/>
+-  <dllmap dll="libgtk-2.0-0.dll" target="libgtk-x11-2.0.so.0"/>
+-  <dllmap dll="libgobject-2.0-0.dll" target="libgobject-2.0.so.0"/>
+-  <dllmap dll="libgnomevfs-2-0.dll" target="libgnomevfs-2.so.0"/>
+-  <dllmap dll="musicbrainz" target="libmusicbrainz.so.4"/>
+-  <dllmap dll="libmuine" target="@pkglibdir@/libmuine.so"/>
++  <dllmap dll="libglib-2.0-0.dll" target="cygglib-2.0-0.dll"/>
++  <dllmap dll="libgtk-2.0-0.dll" target="cyggtk-x11-2.0-0.dll"/>
++  <dllmap dll="libgobject-2.0-0.dll" target="cyggobject-2.0-0.dll"/>
++  <dllmap dll="libgnomevfs-2-0.dll" target="cyggnomevfs-2-0.dll"/>
++  <dllmap dll="musicbrainz" target="cygmusicbrainz-4.dll"/>
++  <dllmap dll="libmuine" target="@pkglibdir@/cygmuine.dll"/>
+ </configuration>
